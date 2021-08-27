@@ -1,0 +1,59 @@
+@import "./global";
+@import "./color";
+.box {
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  z-index: 999;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  height: auto;
+  background: #fff;
+  display: flex;
+  width: min(1050px, 90%);
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+  .section {
+    // background: lightblue;
+    margin: 6px;
+    width: 80%;
+    padding: 1rem;
+    position: relative;
+    word-break: break-all;
+
+    &:nth-child(1) {
+      @include horizontal_line();
+    }
+    &:nth-child(3) {
+      @include horizontal_line();
+    }
+    &:nth-child(2) {
+      @include horizontal_line();
+    }
+
+    h1 {
+      font-size: 22px;
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+      color: $very_Dark_Gray;
+    }
+    p {
+      font-family: "Rubik", sans-serif;
+      margin-bottom: 10px;
+      color: $dark_Gray;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+  }
+}

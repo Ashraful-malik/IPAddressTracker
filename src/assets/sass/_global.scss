@@ -1,0 +1,19 @@
+@mixin mobile {
+  @media screen and (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin horizontal_line {
+  &::before {
+    @include mobile() {
+      display: none;
+    }
+    content: "";
+    border-right: 1px solid $dark_Gray;
+    height: 60px;
+    top: 20px;
+    position: absolute;
+    right: -10px;
+  }
+}
