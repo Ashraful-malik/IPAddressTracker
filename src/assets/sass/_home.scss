@@ -1,5 +1,5 @@
 @import "./color";
-
+@import "./global";
 .search {
   // z-index: ;
   width: 100%;
@@ -43,15 +43,21 @@
       border-top-right-radius: 10px;
       border: none;
       background: $very_Dark_Gray;
+      cursor: pointer;
+      &:hover {
+        background: rgba(0, 0, 0, 0.555);
+      }
     }
   }
 }
 .map_container {
-  // background: purple;
   position: relative;
   width: 100%;
 
   #mymap {
     height: 360px;
+    @include mobile {
+      height: 600px;
+    }
   }
 }

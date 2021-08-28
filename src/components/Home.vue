@@ -66,7 +66,6 @@ export default {
           this.lat = res.data.location.lat;
           this.lng = res.data.location.lng;
           // console.log(this.lng);
-          console.log(process.env);
           const mymap = L.map("mymap").setView([this.lat, this.lng], 9);
           var myIcon = L.icon({
             iconUrl: locationImage,
@@ -82,8 +81,7 @@ export default {
               id: "mapbox/streets-v11",
               tileSize: 512,
               zoomOffset: -1,
-              accessToken:
-                "pk.eyJ1IjoiYXNocmFmdWwyMDAiLCJhIjoiY2tzcmx5ZTd4MGNuNzJwdW1pNDhiamtkaiJ9.EZEzld0gRW05Mcj6VX_INw",
+              accessToken: YOUR_MAPBOX_API_KRY,
             }
           ).addTo(mymap);
         })
@@ -93,9 +91,6 @@ export default {
       e.target.value = "";
     },
   },
-  // mounted() {
-  //   this.fetchApiData();
-  // },
 };
 </script>
 
