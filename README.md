@@ -3,7 +3,8 @@
 <p align="center">
   <img src="src/assets/Screenshot 2021-08-28 at 15-50-11 iptracker.png" alt=" image">
 </p>
-you can check your IP Address details and loaction with this website.
+you can check your IP Address details and loaction with this website
+
 I took this Project as a Challenge from [frontendmentor.io](https://www.frontendmentor.io/solutions)
 if you are interested you can check the [website](https://www.frontendmentor.io/solutions)
 
