@@ -71,7 +71,6 @@ export default {
             iconUrl: locationImage,
           });
           L.marker([this.lat, this.lng], { icon: myIcon }).addTo(mymap);
-
           L.tileLayer(
             `https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=${process.env.VUE_APP_MAP_BOX_API_KEY}`,
             {
