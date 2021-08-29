@@ -14,7 +14,7 @@ if you are interested you can check the [website](https://www.frontendmentor.io/
 
 ### Build With
 
-<img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white"> <img src = "https://img.shields.io/badge/-Vue Js-3fb27f?style=flat&logo=vue3&logoColor=white"> <img src="https://img.shields.io/badge/-Sass-cc6699?style=flat&logo=sass&logoColor=ffffff">
+<img src = "https://img.shields.io/badge/-HTML5-1572B6?style=flat&logo=html3&logoColor=white"> <img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white"> <img src = "https://img.shields.io/badge/-Vue Js-3fb27f?style=flat&logo=vue3&logoColor=white"> <img src="https://img.shields.io/badge/-Sass-cc6699?style=flat&logo=sass&logoColor=ffffff">
 
 ## Project setup
 
