@@ -14,7 +14,7 @@ if you are interested you can check the [website](https://www.frontendmentor.io/
 
 ### Build With
 
-<img src = "https://img.shields.io/badge/-HTML5-1572B6?style=flat&logo=html5&logoColor=white"> <img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white"> <img src = "https://img.shields.io/badge/-Vue Js-3fb27f?style=flat&logo=vue3&logoColor=white"> <img src="https://img.shields.io/badge/-Sass-cc6699?style=flat&logo=sass&logoColor=ffffff"> [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+<img src = "https://img.shields.io/badge/-HTML5-1572B6?style=flat&logo=html5&logoColor=white"> <img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white"> <img src = "https://img.shields.io/badge/-Vue Js-3fb27f?style=flat&logo=vue3&logoColor=white"> <img src="https://img.shields.io/badge/-Sass-cc6699?style=flat&logo=sass&logoColor=ffffff"> (http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 
 ## Project setup
